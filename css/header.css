@@ -1,0 +1,153 @@
+body {
+	font-family: arial, serif;
+	color: black;
+	background: #fff;
+}
+
+header {
+	position: fixed;
+	z-index: 6;
+	top: 0px;
+	width: 100%;
+}
+
+nav {
+	position: relative;
+}
+
+.container-fluid {
+	font-size: 13px;
+}
+
+.logo {
+	max-height: 102px;
+	max-width: 102px;
+	margin: 20px;
+	margin-left: 15px;
+}
+
+.navbar-toggle {
+	padding: 0px;
+	margin-top: 42px;
+}
+
+.icon-bar {
+	background: black;
+}
+
+.nav-close {
+	margin-top: -8px;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 100;
+	font-family: arial;
+}
+
+.website-nav-list, .icons {
+	list-style: none;
+	float: right;
+	margin-top: 80px;
+}
+
+.icons {
+	margin-right: 30px;
+	margin-left: 15px;
+}
+
+.icons > .fa {
+	padding-right: 15px;
+	font-size: 22px;
+}
+
+footer .fa {
+	font-size: 28px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.icons > .fa:hover {
+	color: gray;
+}
+
+.website-links  {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.website-links > li > a, .website-links-module > li > a {
+	text-decoration: none;
+	color: black;
+	font-weight: 900;
+}
+
+.unactive-link:hover {
+	color: rgb(209, 115, 44) !important;
+}
+
+.website-links > li > .active-link, .website-links-module > li > .active-link{
+	color: rgb(209, 115, 44); 
+}
+
+.active-link {
+	color: rgb(209, 115, 44) !important;
+}
+
+.module {
+	z-index: 1;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	top: 0px;
+	background: white;
+	padding-right: 35px;
+	position: absolute;
+	display: none;
+}
+
+.website-links-module {
+	margin-bottom: 50px;
+	font-size: 16px;
+	text-align: center;
+	
+}
+
+.module ul {
+	margin-top: 50px;
+	padding: 0px;
+	width: 100%;
+	display: none;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+#nav-button-white {
+	background: white;
+}
+
+#gallery-nav-color {
+	color: white;
+}
+@media (max-width: 1024px) {
+	.logo {
+		width: 40px;
+		height: 40px;
+		margin: 15px 5px;
+	}
+
+	.website-nav-list, .icons {
+		margin-top: 40px;
+	}
+
+	.icons {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+}
+
+@media (max-width: 480px) {
+	.module {
+		padding-right: 8px;
+	}
+}
